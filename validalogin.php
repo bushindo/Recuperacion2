@@ -1,8 +1,11 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
+//Recogemos las variables del usuario y del password
+$usuario = $_REQUEST['usuario'];
+$password = $_REQUEST['password'];
+
+
+//Nos conectamos a la base de datos
+
+$conexion = new mysqli('localhost',) 
